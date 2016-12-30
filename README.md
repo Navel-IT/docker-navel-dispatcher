@@ -1,5 +1,5 @@
 navel-dispatcher Dockerfile
-==========================
+===========================
 
 This repository contains **Dockerfile** of [navel-dispatcher](https://github.com/Navel-IT/navel-dispatcher) for [Docker](https://www.docker.com/)'s [automated build](https://hub.docker.com/r/navelit/navel-dispatcher/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
