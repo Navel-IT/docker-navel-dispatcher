@@ -10,11 +10,11 @@ ADD https://github.com/navel-it/navel-installation-scripts/archive/master.tar.gz
 
 RUN \
     tar xvzf master.tar.gz && \
-    bash navel-installation-scripts-master/navel-dispatcher.sh -12 master && \
+    bash navel-installation-scripts-master/navel-dispatcher-manager.sh -12 master && \
     rm -Rf *
 
-USER navel-dispatcher
+USER navel-dispatcher-manager
 
-ENTRYPOINT ["navel-dispatcher"]
+ENTRYPOINT ["navel-dispatcher-manager"]
 
-CMD ["/usr/local/etc/navel-dispatcher/meta.json"]
+CMD ["/usr/local/etc/navel-dispatcher-manager/meta.json"]
